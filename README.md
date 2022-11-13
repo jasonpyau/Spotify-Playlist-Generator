@@ -34,7 +34,7 @@ CLIENT_ID = "YOUR_CLIENT_ID"
 CLIENT_SECRET = "YOUR_CLIENT_SECRET"
 REDIRECT_URI = "YOUR_REDIRECT_URI"
 ```
-Replace with your ProxyAPI Link and App Link: ./frontend/script.js <br>
+Replace with your ProxyAPI Link and App Link: ./SpotifyPlaylistFrontend/script.js <br>
 
 ![image](https://user-images.githubusercontent.com/113565962/201541044-e5444f9a-abab-408a-920c-c6ab952a3e1d.png)
 
