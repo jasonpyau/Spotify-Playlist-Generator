@@ -11,7 +11,7 @@
 ![image](https://user-images.githubusercontent.com/113565962/201539311-0195964a-8543-4b84-b3f9-13cba4b2a704.png)
 <br><br>
 # **Demo:**
-![SpotifyPlaylistDemo](https://user-images.githubusercontent.com/113565962/201540423-f7e91790-562b-4f2a-be23-20d02392b0ba.gif)
+![SpotifyPlaylistDemo](https://github.com/jasonpyau/Spotify-Playlist-Generator/blob/main/SpotifyPlaylistDemo.gif)
 
 # **Documentation:**
 1. Spotify API: https://developer.spotify.com/documentation/web-api/
