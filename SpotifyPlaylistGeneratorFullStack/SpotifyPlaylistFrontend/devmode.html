@@ -1,0 +1,59 @@
+<html>
+    <button onclick="back()">Back to Home</button>
+    <div style="padding: 30px">
+        Dev Mode: Use your own Client ID & Client Secret
+    </div>
+    
+    <div style="padding-left: 40px">
+        <div id="currentMode">
+            Dev Mode: False
+        </div>
+        <div id="currentID">
+            Current Client ID: None
+        </div>
+        <div id="currentSecret">
+            Current Client Secret: None
+        </div>
+        <br>
+        <input placeholder="Client ID" id="id">
+        <br>
+        <input placeholder="Client Secret" id="secret">
+        <br>
+        <br>
+        <button id="Submit" onclick="submit()">
+            Submit
+        </button>
+        <br>
+        <br>
+        <button id="Exit" onclick="exit()">
+            Exit Dev Mode
+        </button>
+        <br>
+        <br>
+        <button onclick="back()">
+            Back to Home
+        </button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            How to set up Client ID & Client Secret:
+        </div>
+        <br> <label>1.</label>
+        <a href="https://developer.spotify.com/documentation/general/guides/authorization/app-settings/" target="_blank">
+            https://developer.spotify.com/documentation/general/guides/authorization/app-settings/
+        </a>
+        <br>
+        <br>
+        <div id="RedirectURI">
+            2. Add to RedirectURIs on Spotify Dev Dashboard:
+        </div>
+        <div>
+            https://spotify-playlist-generator.onrender.com
+        </div>
+    </div>
+
+    <script src="devmode.js"> </script>
+
+</html>

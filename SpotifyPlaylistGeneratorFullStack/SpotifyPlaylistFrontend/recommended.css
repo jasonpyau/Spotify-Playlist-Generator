@@ -1,0 +1,119 @@
+.DetailsContainer {
+    width: 30% !important;
+}
+
+#RecommendedHolder, #NewPlaylistHolder, #PlaylistHolder {
+    width: calc(100% + 20px);
+    min-width: 350px;
+    margin-bottom: 15px;
+}
+
+#BackButton {
+    margin-bottom: 30px;
+}
+
+#Recommended {
+    display: none;
+}
+
+#SelectAllButton {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#SongHolder, #PlaylistHolder, #NewPlaylistHolder {
+    width: 100%;
+    align-items: center;
+    text-align: left !important;
+    display: flex;
+}
+
+#Check, #Radio, #NewPlaylistRadio {
+    transform: scale(1.5);
+}
+
+#Num {
+    font-size: 22px;
+    margin-left: 10px;
+    overflow-wrap: break-word;
+    overflow: visible;
+}
+  
+#Song, #PlaylistName {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#Image {
+    width: 50px;  
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#Audio {
+    height: 60px;
+    width: 100%;
+}
+
+#NoPreview, #NoPlaylist {
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+#NoPlaylist {
+    margin-left: 0px !important;
+}
+
+.DetailsHeader {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#NewPlaylistName {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: calc(100% - 50px);
+    opacity: .4;
+}
+
+#Playlist {
+    display: none;
+}
+
+#SubmitRecButton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: opacity .5s background-color .5s;
+}
+
+
+@media (max-width: 880px) {
+
+    .DetailsContainer {
+        width: 60% !important;
+    }    
+    #RecommendedHolder, #NewPlaylistHolder, #PlaylistHolder {
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+    #NewPlaylistName {
+        width: 60%;
+    }
+}
