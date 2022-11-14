@@ -8,7 +8,7 @@
 **Link:** https://spotify-playlist-generator.onrender.com/
 <br>*Note that you will need to create your own Client ID & Secret until the app receieves a quota extension from Spotify.*
 <br> *Follow the directions here:* <br>
-![image](https://user-images.githubusercontent.com/113565962/201539311-0195964a-8543-4b84-b3f9-13cba4b2a704.png)
+[![name](https://user-images.githubusercontent.com/113565962/201539311-0195964a-8543-4b84-b3f9-13cba4b2a704.png)](https://spotify-playlist-generator.onrender.com/devmode)
 <br>
 <br>
 # **Demo:**
