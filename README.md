@@ -10,9 +10,6 @@
 <br> *Follow the directions here:* <br>
 ![image](https://user-images.githubusercontent.com/113565962/201539311-0195964a-8543-4b84-b3f9-13cba4b2a704.png)
 <br>
-Or input the temporary Public ID & Secret: <br>
-**ID:** 89017b41b7284a708731107ee733dfa3 <br>
-**Secret:** e64750185f0b4bd1a1455920fecaea4a
 <br>
 # **Demo:**
 https://user-images.githubusercontent.com/113565962/201541485-47a3dbc5-411f-4084-9b44-2a8c34da671f.mp4
